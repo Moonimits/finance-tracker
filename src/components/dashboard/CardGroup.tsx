@@ -94,7 +94,7 @@ const CardGroup = (cardData: CardGroupProps) => {
         <CardHeader>
           <CardTitle>Remaining Funds</CardTitle>
           <CardDescription className="flex items-center text-3xl font-semibold tabular-nums">
-            {formatCurrency(total_budgets - total_expenses)}
+            {formatCurrency(total_budgets - total_expenses - total_savings)}
           </CardDescription>
         </CardHeader>
       </Card>
